@@ -20,4 +20,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  hello: "Hello Bringers!"
+  where: "Where are you headed?"
+  i_am_leaving: ", I'm leaving "
+  to_go_to: " to go to "
+  # San Francisco on May 5th to Aruba. I will not return ever."

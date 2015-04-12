@@ -1,0 +1,14 @@
+= form_for :trip, url: trips_path do |f|
+  %p
+    = f.label :from
+    %br/
+    = f.text_field :from
+  %p
+    = f.label :to
+    %br/
+    = f.text_field :to
+  %p
+    = f.label :trip_date
+    = f.date_select :trip_date
+  %p
+    = f.submit

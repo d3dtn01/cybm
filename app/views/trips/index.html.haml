@@ -1,0 +1,11 @@
+%h1 Trips
+%table
+  %tr
+    %th From
+    %th To
+    %th Date
+  - @trips.each do |trip|
+    %tr
+      %td= trip.from
+      %td= trip.to
+      %td= trip.trip_date

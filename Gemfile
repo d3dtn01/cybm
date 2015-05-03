@@ -41,5 +41,3 @@ gem 'web-console', '~> 2.0',        group: :development
 gem 'haml'
 
 gem 'rails_12factor', group: :production
-
-gem 'foundation-rails'
